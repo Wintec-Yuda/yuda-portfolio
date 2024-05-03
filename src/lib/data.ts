@@ -17,6 +17,18 @@ export const experiences = [
     company: "CV Kasih Inovasi Teknologi",
     duration: "Agustus 2023 - Desember 2023",
     description:
-      "Pada semester 7, saya menjalani magang sebagai frontend developer di CV Kasih InovasiTeknologi. Bergabung dalam sebuah tim yang terdiri dari satu backend developer dan dua frontend developers, kami bekerja sama dalam mengembangkan website Tryout Academy dengan menggunakan Laravel 10 dan Vue 3. Selain fokus pada pengembangan web, kami juga aktif dalam mempelajari manajemen proyek dan dasar-dasar kecerdasan buatan (AI), yang memberikan kami wawasan yang lebih luas dalam teknologi yang terus berkembang. Kolaborasi dalam tim dan eksplorasi teknologi baru menjadi bagian integral dari pengalaman magang kami, memperkaya pengetahuan dan keterampilan kami dalam dunia pengembangan perangkat lunak.",
+      "Pada semester 7, saya menjalani magang sebagai frontend developer di CV Kasih Inovasi Teknologi. Bergabung dalam sebuah tim yang terdiri dari satu backend developer dan dua frontend developers, kami bekerja sama dalam mengembangkan website Tryout Academy dengan menggunakan Laravel 10 dan Vue 3. Selain fokus pada pengembangan web, kami juga aktif dalam mempelajari manajemen proyek dan dasar-dasar kecerdasan buatan (AI), yang memberikan kami wawasan yang lebih luas dalam teknologi yang terus berkembang. Kolaborasi dalam tim dan eksplorasi teknologi baru menjadi bagian integral dari pengalaman magang kami, memperkaya pengetahuan dan keterampilan kami dalam dunia pengembangan perangkat lunak.",
+  },
+];
+
+export const portfolios = [
+  {
+    title: "Website My Portfolio",
+    description:
+      "Website ini adalah wujud dari perjalanan saya sebagai seorang fullstack web developer. Melalui berbagai informasi yang disajikan di sini, Anda akan menjelajahi profil diri saya, menggali ke dalam beragam keterampilan yang saya kuasai, menelusuri pengalaman magang yang telah saya jalani, serta mengintip beberapa proyek website yang telah saya rancang dan kembangkan. Jangan ragu untuk menjalin kontak dengan saya melalui informasi yang tersedia. Saya sangat antusias untuk berkolaborasi dan berbagi pengalaman dengan Anda!",
+    image: "/images/portfolio.png",
+    linkSourceCode: "#",
+    linkVisit: "#",
+    tags: ["Typescript", "Next.js", "Tailwind CSS", "Shadcn/ui", "AtomicDesign"],
   },
 ];

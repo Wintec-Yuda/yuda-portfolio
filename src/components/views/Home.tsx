@@ -2,14 +2,15 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Skills from "../fragments/Skills";
 import Experience from "../fragments/Experience";
 import { Badge } from "../ui/badge";
+import Portfolio from "../fragments/Portfolio";
 
 const HomeView = () => {
   return (
-    <section className="relative top-10 bg-secondary bg-slate-800 text-white">
-      <div className="flex flex-col justify-center gap-4 md:gap-8 p-4">
-        <div className="flex flex-col md:flex-row gap-4">
+    <section className="relative top-10 bg-slate-800 text-white">
+      <div className="flex flex-col justify-center gap-4 md:gap-8 p-4 sm:p-6 md:p-8">
+        <div className="flex flex-col md:flex-row gap-4" id="home">
           <div className="flex justify-center md:items-center">
-            <Avatar className="h-56 w-48 md:h-72 md:w-64 shadow-2xl bg-white bg-opacity-5 brightness-75 shadow-md shadow-black ">
+            <Avatar className="h-56 w-48 md:h-72 md:w-64 bg-white bg-opacity-5 brightness-75 shadow-lg shadow-black ">
               <AvatarImage src="/images/yuda.png" alt="Yuda" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
@@ -29,13 +30,17 @@ const HomeView = () => {
         </div>
         <div className="flex flex-col xl:flex-row gap-4">
           <div className="flex flex-col gap-2 xl:w-1/3">
-            <h2 className="text-xl md:text-2xl xl:text-3xl font-semibold underline">Skills</h2>
+            <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Skills</h2>
             <Skills />
           </div>
           <div className="flex flex-col gap-2 xl:w-2/3">
-            <h2 className="text-xl md:text-2xl xl:text-3xl font-semibold underline">Internship Experience</h2>
+            <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Internship Experience</h2>
             <Experience />
           </div>
+        </div>
+        <div className="flex flex-col gap-4" id="portfolio">
+            <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Portfolio</h2>
+            <Portfolio />
         </div>
       </div>
     </section>
