@@ -17,7 +17,7 @@ const contacts = [
 
 const Contact = () => {
   return (
-    <div className="grid gap-4 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8">
+    <div className="grid gap-4 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-8">
       {contacts.map((contact) => (
         <div key={contact.name} className="flex flex-col gap-4 justify-center items-center border-2 border-white bg-black bg-opacity-20 rounded-md hover:bg-slate-950 py-4">
           {contact.icon}

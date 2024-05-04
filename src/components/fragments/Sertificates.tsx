@@ -1,6 +1,5 @@
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Badge } from "../ui/badge";
-import Image from "next/image";
 import { sertificates } from "@/lib/data";
 
 const Sertificates = () => {
@@ -17,7 +16,7 @@ const Sertificates = () => {
           <DialogContent className="w-screen h-96 bg-white bg-opacity-50">
             <DialogHeader>
               <DialogDescription>
-                <Image src={sertificate.link} alt={sertificate.company} width={500} height={500} className="rounded-md border-2 border-black shadow-lg shadow-black" />
+                <img src={sertificate.link} alt={sertificate.company} width={500} height={500} className="rounded-md border-2 border-black shadow-lg shadow-black" />
               </DialogDescription>
             </DialogHeader>
           </DialogContent>
