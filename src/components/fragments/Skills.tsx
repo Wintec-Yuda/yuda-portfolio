@@ -56,7 +56,7 @@ const Skills = () => {
   return (
     <div className="grid grid-cols-auto grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-3 gap-4 p-1">
       {skills.map((skill) => (
-        <div key={skill.name} className="flex flex-col gap-2 justify-center items-center border-2 border-white bg-black bg-opacity-20 rounded-md h-20 w-26 sm:h-24 sm:w-32 hover:bg-slate-950">
+        <div key={skill.name} className="flex flex-col gap-2 justify-center items-center border-2 border-white bg-black bg-opacity-20 rounded-md  hover:bg-slate-950 py-4">
           {skill.icon}
           <label className="text-xs sm:text-sm">{skill.name}</label>
         </div>

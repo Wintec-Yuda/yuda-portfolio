@@ -3,6 +3,7 @@ import Skills from "../fragments/Skills";
 import Experience from "../fragments/Experience";
 import { Badge } from "../ui/badge";
 import Portfolio from "../fragments/Portfolio";
+import Contact from "../fragments/Contact";
 
 const HomeView = () => {
   return (
@@ -39,10 +40,17 @@ const HomeView = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4" id="portfolio">
-            <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Portfolio</h2>
+            <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">My Portfolio</h2>
             <Portfolio />
         </div>
+        <div className="flex flex-col gap-4" id="portfolio">
+            <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Contact Me</h2>
+            <Contact />
+        </div>
       </div>
+      <footer className="pb-4">
+        <p className="text-center text-sm sm:text-md md:text-lg">Copyright &copy;2024 | Mochamad Yuda Trinurais</p>
+      </footer>
     </section>
   );
 };
