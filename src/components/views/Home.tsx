@@ -4,6 +4,7 @@ import Experience from "../fragments/Experience";
 import { Badge } from "../ui/badge";
 import Portfolio from "../fragments/Portfolio";
 import Contact from "../fragments/Contact";
+import Sertificates from "../fragments/Sertificates";
 
 const HomeView = () => {
   return (
@@ -34,7 +35,11 @@ const HomeView = () => {
             <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Skills</h2>
             <Skills />
           </div>
-          <div className="flex flex-col gap-2 xl:w-2/3">
+          <div className="flex flex-col gap-2 xl:w-1/3">
+            <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Sertificates</h2>
+            <Sertificates />
+          </div>
+          <div className="flex flex-col gap-2 xl:w-3/5">
             <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Internship Experience</h2>
             <Experience />
           </div>

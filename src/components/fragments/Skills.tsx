@@ -1,4 +1,4 @@
-import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiTailwindcss, SiNextdotjs, SiReact, SiMysql, SiFirebase, SiShadcnui, SiLaravel, SiPhp, SiRedux } from "react-icons/si";
+import {  SiJavascript, SiTypescript, SiTailwindcss, SiNextdotjs, SiReact, SiMysql, SiFirebase, SiShadcnui, SiLaravel, SiPhp, SiRedux } from "react-icons/si";
 import { GiAtomCore } from "react-icons/gi";
 
 const Skills = () => {

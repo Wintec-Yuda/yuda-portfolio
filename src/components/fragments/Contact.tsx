@@ -22,7 +22,7 @@ const Contact = () => {
         <div key={contact.name} className="flex flex-col gap-4 justify-center items-center border-2 border-white bg-black bg-opacity-20 rounded-md hover:bg-slate-950 py-4">
           {contact.icon}
           <Link href={contact.link} target="_blank">
-            <Button variant="secondary">{contact.name}</Button>
+            <Button variant="secondary" className="text-sm">{contact.name}</Button>
           </Link>
         </div>
       ))}

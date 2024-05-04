@@ -41,3 +41,21 @@ export const portfolios = [
     tags: ["Typescript", "Next.js", "Redux", "Firebase", "Tailwind CSS", "Shadcn/ui", "AtomicDesign"],
   },
 ];
+
+export const sertificates = [
+  {
+    company: "PT Kalbe Farma",
+    link: "/images/sertifikat magang kalbe.png",
+    program: "Magang Mandiri",
+  },
+  {
+    company: "CV kasih Inovasi Teknologi",
+    link: "/images/sertifikat magang KIT.png",
+    program: "Magang Kampus Merdeka",
+  },
+  {
+    company: "PT Orbit Ventura Indonesia",
+    link: "/images/sertifikat orbit AI Mastery.png",
+    program: "Studi Independen Kampus Merdeka",
+  },
+];
