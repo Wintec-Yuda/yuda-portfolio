@@ -1,9 +1,3 @@
-export const links = [
-  { name: "Home", href: "#home" },
-  { name: "Portfolio", href: "#portfolio" },
-  { name: "Contact", href: "#contact" },
-];
-
 export const experiences = [
   {
     position: "Web Developer",
@@ -46,12 +40,12 @@ export const sertificates = [
   {
     company: "PT Kalbe Farma",
     link: "/images/sertifikat magang kalbe.png",
-    program: "Magang Mandiri",
+    program: "Magang Kampus Merdeka ",
   },
   {
     company: "CV kasih Inovasi Teknologi",
     link: "/images/sertifikat magang KIT.png",
-    program: "Magang Kampus Merdeka",
+    program: "Magang Mandiri",
   },
   {
     company: "PT Orbit Ventura Indonesia",

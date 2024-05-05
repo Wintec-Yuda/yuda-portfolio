@@ -1,4 +1,3 @@
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import Skills from "../fragments/Skills";
 import Experience from "../fragments/Experience";
 import { Badge } from "../ui/badge";
@@ -8,14 +7,10 @@ import Sertificates from "../fragments/Sertificates";
 
 const HomeView = () => {
   return (
-    <section className="relative top-10 bg-slate-800 text-white">
+    <section className="bg-slate-800 text-white">
       <div className="flex flex-col justify-center gap-4 md:gap-8 p-4 sm:p-6 md:p-8">
         <div className="flex flex-col md:flex-row gap-4" id="home">
           <div className="flex justify-center md:items-center">
-            <Avatar className="h-56 w-48 md:h-72 md:w-64 bg-white bg-opacity-5 brightness-75 shadow-lg shadow-black ">
-              <AvatarImage src="/images/yuda.png" alt="Yuda" />
-              <AvatarFallback>CN</AvatarFallback>
-            </Avatar>
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex flex-col items-center md:items-start">
@@ -48,7 +43,7 @@ const HomeView = () => {
             <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">My Portfolio</h2>
             <Portfolio />
         </div>
-        <div className="flex flex-col gap-4" id="portfolio">
+        <div className="flex flex-col gap-4" id="contact">
             <h2 className="text-2xl md:text-3xl xl:text-4xl font-semibold underline">Contact Me</h2>
             <Contact />
         </div>

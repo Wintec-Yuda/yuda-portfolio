@@ -7,12 +7,12 @@ import { portfolios } from "@/lib/data";
 
 const Portfolio = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
       {portfolios.map((portfolio) => (
         <Card key={portfolio.title} className="border-2 border-white bg-black bg-opacity-20 hover:bg-slate-950 text-white">
           <CardHeader className="flex flex-col items-center gap-1">
             <Image src={portfolio.image} alt="Portfolio" width={500} height={500} className="rounded-t-lg" />
-            <CardTitle className="text-2xl md:text-3xl underline">{portfolio.title}</CardTitle>
+            <CardTitle className="text-xl md:text-2xl underline">{portfolio.title}</CardTitle>
           </CardHeader>
           <CardDescription className="mx-6 grid grid-cols-2 sm:grid-cols-3 gap-1">
             {portfolio.tags.map((tag) => (

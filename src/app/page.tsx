@@ -1,12 +1,11 @@
-import Navbar from "@/components/fragments/Navbar";
+import DashboardLayout from "@/components/templates/Dashboard";
 import HomeView from "@/components/views/Home";
 
 const HomePage = () => {
   return (
-    <section className="bg-black">
-      <Navbar />
+    <DashboardLayout>
       <HomeView />
-    </section>
+    </DashboardLayout>
   );
 };
 
