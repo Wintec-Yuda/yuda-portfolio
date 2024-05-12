@@ -11,7 +11,7 @@ const contacts = [
   {
     name: "Gmail",
     icon: <SiGmail size={30} className="text-red-400" />,
-    link: "mailto:yudarais99@gmail.com",
+    link: "mailto:yudarais9999@gmail.com",
   },
 ];
 

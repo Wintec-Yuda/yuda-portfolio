@@ -17,22 +17,13 @@ export const experiences = [
 
 export const portfolios = [
   {
-    title: "Website My Portfolio",
+    title: "Website Individual Training Plan",
     description:
-      "Website ini adalah wujud dari perjalanan saya sebagai seorang fullstack web developer. Melalui berbagai informasi yang disajikan di sini, Anda akan menjelajahi profil diri saya, menggali ke dalam beragam keterampilan yang saya kuasai, menelusuri pengalaman magang yang telah saya jalani, serta mengintip beberapa proyek website yang telah saya rancang dan kembangkan. Jangan ragu untuk menjalin kontak dengan saya melalui informasi yang tersedia. Saya sangat antusias untuk berkolaborasi dan berbagi pengalaman dengan Anda!",
-    image: "/images/portfolio.png",
-    linkSourceCode: "https://github.com/Wintec-Yuda/yuda-portfolio",
-    linkVisit: "#",
-    tags: ["Typescript", "Next.js", "Tailwind CSS", "Shadcn/ui", "AtomicDesign"],
-  },
-  {
-    title: "Website Swim Race",
-    description:
-      "Website ini adalah tempat ideal bagi para pecinta renang untuk mendaftarkan tim mereka ke dalam perlombaan dengan berbagai gaya renang. Pengguna dapat dengan mudah menambahkan atlet-atlet mereka untuk berkompetisi dalam event-event yang diselenggarakan. Di sisi lain, admin memiliki peran penting dalam memastikan kelancaran manajemen perlombaan renang ini, memastikan semua persiapan dan detail terkendali dengan baik. Mari bergabung dalam semangat olahraga ini dan jadikan setiap lomba renang menjadi momen yang tak terlupakan!",
-    image: "/images/swimrace.png",
-    linkSourceCode: "https://github.com/Wintec-Yuda/swim-app",
-    linkVisit: "https://swimrace.vercel.app/",
-    tags: ["Typescript", "Next.js", "Redux", "Firebase", "Tailwind CSS", "Shadcn/ui", "AtomicDesign"],
+      "Website ini merupakan platform untuk mengelola proses pendaftaran pelatihan bagi pengguna dan tim, dalam studi kasus di PT Kalbe Farma saat saya sedang menjalani magang. Proses utamanya adalah pada hierarki persetujuan yang memungkinkan persetujuan pendaftaran melalui beberapa tahap persetujuan dari manajer atau supervisor yang ditentukan. Website ini dikembangkan untuk memfasilitasi transisi dari proses manual ke proses digital. Platform ini melibatkan beberapa pengguna, antara lain:\n - Supervisor: yanuarti.arif\n - Manager (approval 1): Komang.Andriani\n - Manager (approval 2): leonardo.simanjuntak\n - Manager (approval 3): yulita.ibrahim\n - Supervisor dan admin (approval 4 golongan 1-3): adriella.limewa\n - Manager (approval 4 golongan 4-5): leonardo.simanjuntak",
+    image: "/images/itp.png",
+    linkSourceCode: "https://github.com/Wintec-Yuda/individual-training-plan",
+    linkVisit: "https://individualtrainingplan.vercel.app/",
+    tags: ["Typescript", "Next.js", "Firebase","Tailwind CSS", "Shadcn/ui", "AtomicDesign"],
   },
 ];
 

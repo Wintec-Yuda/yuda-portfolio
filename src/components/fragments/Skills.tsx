@@ -1,12 +1,8 @@
-import {  SiJavascript, SiTypescript, SiTailwindcss, SiNextdotjs, SiReact, SiMysql, SiFirebase, SiShadcnui, SiLaravel, SiPhp, SiRedux } from "react-icons/si";
+import {  SiJavascript, SiTypescript, SiTailwindcss, SiNextdotjs, SiReact, SiMysql, SiFirebase, SiShadcnui, SiRedux } from "react-icons/si";
 import { GiAtomCore } from "react-icons/gi";
 
 const Skills = () => {
   const skills = [
-    {
-      name: "PHP",
-      icon: <SiPhp size={30} className="text-indigo-400" />,
-    },
     {
       name: "Javascript",
       icon: <SiJavascript size={30} className="text-yellow-400" />,
@@ -14,10 +10,6 @@ const Skills = () => {
     {
       name: "Typescript",
       icon: <SiTypescript size={30} className="text-blue-400" />,
-    },
-    {
-      name: "Laravel",
-      icon: <SiLaravel size={30} className="text-red-400" />,
     },
     {
       name: "React",
