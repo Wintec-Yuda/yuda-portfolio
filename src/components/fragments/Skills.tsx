@@ -1,16 +1,8 @@
-import {  SiJavascript, SiTypescript, SiTailwindcss, SiNextdotjs, SiReact, SiMysql, SiFirebase, SiShadcnui, SiRedux } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiReact, SiMysql, SiFirebase, SiShadcnui, SiRedux, SiVuedotjs, SiLaravel } from "react-icons/si";
 import { GiAtomCore } from "react-icons/gi";
 
 const Skills = () => {
   const skills = [
-    {
-      name: "Javascript",
-      icon: <SiJavascript size={30} className="text-yellow-400" />,
-    },
-    {
-      name: "Typescript",
-      icon: <SiTypescript size={30} className="text-blue-400" />,
-    },
     {
       name: "React",
       icon: <SiReact size={30} className="text-sky-400" />,
@@ -18,6 +10,14 @@ const Skills = () => {
     {
       name: "Next.js",
       icon: <SiNextdotjs size={30} className="text-white" />,
+    },
+    {
+      name: "Vue.js",
+      icon: <SiVuedotjs size={30} className="text-green-500" />,
+    },
+    {
+      name: "Laravel",
+      icon: <SiLaravel size={30} className="text-red-600" />,
     },
     {
       name: "Tailwind CSS",
