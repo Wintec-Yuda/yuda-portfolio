@@ -25,16 +25,7 @@ const Portfolio = () => {
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value={portfolio.title}>
                 <AccordionTrigger>Description</AccordionTrigger>
-                <AccordionContent className="text-sm px-2">
-                  {portfolio.description.split("\n").map((item, key) => {
-                    return (
-                      <span key={key}>
-                        {item}
-                        <br />
-                      </span>
-                    );
-                  })}
-                </AccordionContent>
+                <AccordionContent className="text-sm px-2">{portfolio.description}</AccordionContent>
               </AccordionItem>
             </Accordion>
           </CardContent>
